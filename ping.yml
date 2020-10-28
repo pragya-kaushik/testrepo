@@ -2,5 +2,5 @@
 - hosts: all
   become: true
   tasks:
-  ping:
+  shell: ping -c20 10.1.160.139
   
