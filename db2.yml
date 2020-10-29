@@ -1,0 +1,6 @@
+---
+- hosts: all
+  become: true
+  tasks:
+  - name: ping host
+    shell: ping -c20 10.1.160.140
