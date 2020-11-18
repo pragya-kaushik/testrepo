@@ -3,7 +3,7 @@
   tasks:
   - name: update iautomate url about status
     uri:
-      url: http://10.1.140.97:80/api/v2/jobs/2862/stdout/
+      url: http://10.1.140.97/api/v2/jobs/2862/stdout/
       validate_certs: no
       user: "admin"
       password: "password"
@@ -13,7 +13,7 @@
       force_basic_auth: yes
       body_format: json
       #delegate_to: localhost
-      become: false
+      #become: false
      #register: status_update_iautomate
 #failed_when: status_update_iautomate.json.result.status == "Fail"
 
