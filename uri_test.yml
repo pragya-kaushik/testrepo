@@ -14,6 +14,6 @@
       body_format: json
       #delegate_to: localhost
       become: false
-      register: status_update_iautomate
+     #register: status_update_iautomate
 #failed_when: status_update_iautomate.json.result.status == "Fail"
 
