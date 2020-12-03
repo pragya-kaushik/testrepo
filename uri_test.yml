@@ -3,10 +3,8 @@
   tasks:
   - name: update iautomate url about status
     uri:
-      url: http://10.1.140.97/api/v2/jobs/2862/stdout/
+      url: http://ip/api/v2/jobs/2862/stdout/
       validate_certs: no
-      user: "admin"
-      password: "password"
       method: GET
       status_code: 200
       return_content: yes
